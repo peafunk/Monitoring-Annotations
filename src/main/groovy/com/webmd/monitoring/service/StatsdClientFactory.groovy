@@ -12,7 +12,7 @@ class StatsdClientFactory {
 
 	StatsdClient statsdClient
 	
-	private StatsdClient getInstance(){
+	public StatsdClient getInstance(){
 		return statsdClient
 	}
 
