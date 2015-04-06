@@ -35,8 +35,6 @@ import org.springframework.stereotype.Component
  *    time2
  *
  */
-
-@Component
 public class StatsdClient {
 	private static Random RNG = new Random()
 	private static Log logger = LogFactory.getLog(StatsdClient.class)
