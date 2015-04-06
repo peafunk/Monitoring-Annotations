@@ -49,7 +49,7 @@ public class Incrementing {
             //get the value of timing notes as declared in the method annotation
             def note = incrementedAnnotation.notes()
 
-            logger.info("Incrementing joinpoint  " + targetMethod.declaringClass.name + "." + targetMethod.name + " took " + differenceMs + " ms : notes: " + note)
+            logger.debug("Incrementing joinpoint  " + targetMethod.declaringClass.name + "." + targetMethod.name + " took " + differenceMs + " ms : notes: " + note)
 
         	//If no note is passed, use the declaring method
             def graphNode
