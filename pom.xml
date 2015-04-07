@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.webmd</groupId>
 	<artifactId>monitoring</artifactId>
-	<version>17.19.0</version>
+	<version>17.5.0</version>
 	<parent>
 		<groupId>com.webmd</groupId>
 		<artifactId>webmd_lib</artifactId>
-		<version>17.19.0</version>
+		<version>17.5.0</version>
 	</parent>
 
 	<dependencies>
