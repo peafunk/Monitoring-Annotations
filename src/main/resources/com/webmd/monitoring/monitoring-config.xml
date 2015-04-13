@@ -14,7 +14,7 @@
 		<context:include-filter type="annotation" expression="org.aspectj.lang.annotation.Aspect" />
 	</context:component-scan>
 
-	<bean id="statsdClient" class="com.webmd.monitoring.service.StatsdClient">
+ 	<bean id="statsdClient" class="com.webmd.monitoring.service.StatsdClient">
 		<constructor-arg>
 			<util:constant static-field="com.webmd.util.CommonAttributes.statsDHost" />
 		</constructor-arg>
@@ -23,8 +23,8 @@
 		</constructor-arg>
 	</bean>
 
-	<bean id="statsdClientFactory" class="com.webmd.monitoring.service.StatsdClientFactory">
+<!--	<bean id="statsdClientFactory" class="com.webmd.monitoring.service.StatsdClientFactory">
 		<property name="statsdClient" ref="statsdClient" />
-	</bean>
-
+	</bean>-->
+	
 </beans>
