@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.webmd</groupId>
 	<artifactId>monitoring</artifactId>
-	<version>17.0.0-SNAPSHOT</version>
+	<version>15.4.28</version>
 	<parent>
 		<groupId>com.webmd</groupId>
 		<artifactId>webmd_lib</artifactId>
-		<version>17.0.0-SNAPSHOT</version>
+		<version>15.4.28</version>
 	</parent>
 
 	<dependencies>
@@ -61,6 +61,11 @@
 		<dependency>
 			<groupId>com.webmd</groupId>
 			<artifactId>prof_common</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
