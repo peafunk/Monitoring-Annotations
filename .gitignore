@@ -16,3 +16,4 @@ developer-stuff/
 *.jar
 *.war
 *.ear
+/bin/
