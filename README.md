@@ -4,21 +4,17 @@ Include this component in you application and configure the location of your Sta
  
 These are both method-level annotations:
 
-The Annotations
-@Timed - an around advice that times method execution.  Records the time in ms and posts into graphic DB
+#The Annotations
+#####@Timed - an around advice that times method execution.  Records the time in ms and posts into graphic DB
+#####@Incremented - an after advice that will increase the count of the number of times the method has been executed
 
-@Incremented - an after advice that will increase the count of the number of times the method has been executed
-
-
-Sample Use
-Incremented example:
-
+#Sample Use
+###Incremented example:
 @Incremented(notes = "appMetrics.myservice.mycontroller.dataaccessexception")
 public @ResponseBody FormSubmitResponse handleException(DataAccessException ex) {
     return ERROR_VALIDATION_RESPONSE;
 }
-Timed Example:
-
+###Timed Example:
 @Timed(timingNotes ="appMetrics.myapp.myservice.doSomething")
 public Object doSomething(){
    ...
