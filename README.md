@@ -7,7 +7,7 @@ These are both method-level annotations:
 ==========================
 == The Annotations
 ==========================
-@Timed - an around advice that will time how long a method takes to execute.  Records the time in ms and posts into graphical UI tool (currently Graphite)
+@Timed - an around advice that will time how long a method takes to execute.  Records the time in ms and posts into graphic DB
 
 @Incremented - an after advice that will increase the count of the number of times the method has been executed
 
@@ -16,12 +16,14 @@ These are both method-level annotations:
 == Sample Use 
 ==========================
 Incremented example:
+
 @Incremented(notes = "appMetrics.myservice.mycontroller.dataaccessexception")
 public @ResponseBody FormSubmitResponse handleException(DataAccessException ex) {
     return ERROR_VALIDATION_RESPONSE;
 }
 
 Timed Example:
+
 @Timed(timingNotes ="appMetrics.myapp.myservice.doSomething")
 public Object doSomething(){
    ...
