@@ -8,6 +8,7 @@ These are both method-level annotations:
 == The Annotations
 ==========================
 @Timed - an around advice that will time how long a method takes to execute.  Records the time in ms and posts into graphical UI tool (currently Graphite)
+
 @Incremented - an after advice that will increase the count of the number of times the method has been executed
 
 
