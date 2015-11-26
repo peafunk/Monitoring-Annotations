@@ -16,7 +16,7 @@ class TimingTest extends AbstractTest{
 	@Autowired
 	MonitorServiceDemo monitorServiceDemo
 
-	def"Get article meta data test"(){
+	def"Timing test"(){
 
 		when:
 			monitorServiceDemo.demoMonitorTimingService()

@@ -16,7 +16,7 @@ class IncrementTest extends AbstractTest{
 	@Autowired
 	MonitorServiceDemo monitorServiceDemo
 
-	def"Get article meta data test"(){
+	def"Increment test"(){
 
 		when:
 			monitorServiceDemo.demoMonitorIncrementService()
