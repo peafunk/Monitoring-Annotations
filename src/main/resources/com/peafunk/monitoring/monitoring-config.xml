@@ -10,16 +10,16 @@
 
 	<aop:aspectj-autoproxy />
 
-	<context:component-scan base-package="com.webmd.monitoring">
+	<context:component-scan base-package="com.peafunk.monitoring">
 		<context:include-filter type="annotation" expression="org.aspectj.lang.annotation.Aspect" />
 	</context:component-scan>
 
- 	<bean id="statsdClient" class="com.webmd.monitoring.service.StatsdClient">
+ 	<bean id="statsdClient" class="com.peafunk.monitoring.service.StatsdClient">
 		<constructor-arg>
-			<util:constant static-field="com.webmd.util.CommonAttributes.statsDHost" />
+			<util:constant static-field="<HOST>" />
 		</constructor-arg>
 		<constructor-arg>
-			<util:constant static-field="com.webmd.util.CommonAttributes.statsDPort" />
+			<util:constant static-field="<PORT>" />
 		</constructor-arg>
 	</bean>
 	
