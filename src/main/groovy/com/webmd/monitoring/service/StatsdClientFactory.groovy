@@ -4,7 +4,7 @@ import org.springframework.stereotype.Service
 import org.springframework.beans.factory.annotation.Autowired
 
 /**
- * Factory class to get instance of StatsD client
+ * Factory class for StatsdClient
  * @author pellington
  */
 @Service

@@ -24,7 +24,6 @@ public class Timing {
 	private StatsdClient statsdClient
 	private static Log logger = LogFactory.getLog(Timing.class)
 	
-	
     /**
      * This around advice adds timing to any method annotated with the Timed annotation.
      * It binds the annotation to the parameter timedAnnotation so that the values are available at runtime.

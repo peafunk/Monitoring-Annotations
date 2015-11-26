@@ -10,4 +10,5 @@ public interface MonitorService {
     void doMoreTiming(String genericParam)    
 
     void doIncrement()
+    
 }
