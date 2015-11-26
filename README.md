@@ -1,6 +1,6 @@
 ## Monitoring-Annotations
-This component contains to two annotations that can be used in an application to record metrics in a Graphic DB.
-Include this component in you application and configure the location of your StatsD host in the StatsDClient object of the monitoring-config.xml file and you can start recording metrics.
+This component contains to two annotations that can be used in an application to record metrics using StatsD.
+Include this component in you application and configure the location of your graphic db host in the StatsDClient object of the monitoring-config.xml file and you can start recording metrics.
  
 These are both method-level annotations:
 
