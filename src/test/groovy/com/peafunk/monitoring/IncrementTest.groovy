@@ -1,7 +1,7 @@
-package com.webmd.monitoring
+package com.peafunk.monitoring
 
-import com.webmd.monitoring.AbstractTest
-import com.webmd.monitoring.service.MonitorServiceDemo
+import com.peafunk.monitoring.AbstractTest
+import com.peafunk.monitoring.service.MonitorServiceDemo
 import org.springframework.beans.factory.annotation.Autowired
 
 import spock.lang.Ignore;

@@ -1,4 +1,4 @@
-package com.webmd.monitoring.aspects
+package com.peafunk.monitoring.aspects
 
 import org.apache.commons.logging.Log
 import org.apache.commons.logging.LogFactory
@@ -8,13 +8,13 @@ import org.aspectj.lang.annotation.Aspect
 import org.aspectj.lang.reflect.MethodSignature
 import org.springframework.beans.factory.annotation.Autowired
 
-import com.webmd.monitoring.service.StatsdClient
-import com.webmd.monitoring.annotations.Incremented
+import com.peafunk.monitoring.service.StatsdClient
+import com.peafunk.monitoring.annotations.Incremented
 
 import java.lang.reflect.Method
 
 /**
- * This aspect times the execution of a method (join point) and records this in StatsD
+ * This aspect times the execution of a method (join point)
  * @author pellington
  */
 @Aspect

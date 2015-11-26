@@ -1,4 +1,4 @@
-package com.webmd.monitoring.service
+package com.peafunk.monitoring.service
 
 import org.apache.commons.logging.LogFactory
 import org.apache.commons.logging.Log
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.config.BeanDefinition
 import org.springframework.context.annotation.Scope
 import org.springframework.stereotype.Service
 
-import com.webmd.monitoring.annotations.Incremented
-import com.webmd.monitoring.annotations.Timed
+import com.peafunk.monitoring.annotations.Incremented
+import com.peafunk.monitoring.annotations.Timed
 
 
 /**

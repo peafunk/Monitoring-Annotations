@@ -1,4 +1,4 @@
-package com.webmd.monitoring.service
+package com.peafunk.monitoring.service
 
 import org.springframework.stereotype.Service
 import org.springframework.beans.factory.annotation.Autowired

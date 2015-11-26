@@ -1,4 +1,4 @@
-package com.webmd.monitoring.service
+package com.peafunk.monitoring.service
 
 import org.apache.commons.logging.Log
 import org.apache.commons.logging.LogFactory
